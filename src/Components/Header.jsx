@@ -19,9 +19,6 @@ export default function Header()
                         <a href="#how-it-works" className="hover:text-blue-200 transition-colors">
                             Comment ça marche
                         </a>
-                        <a href="#about" className="hover:text-blue-200 transition-colors">
-                            À propos
-                        </a>
                     </nav>
                     <button onClick={()=>window.location.href="/login"}
                         className="cursor-pointer flex items-center space-x-1 bg-white text-blue-600 px-4 py-2 rounded-md font-medium hover:bg-blue-100 transition-colors">
